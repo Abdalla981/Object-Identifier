@@ -25,14 +25,19 @@ Note: There are error handling messeges that might appear. You can choose to ret
 ## Dependencies
 
 1. Download python3: 
+
 ```https://python.org```
 2. Install tensorflow 1.4.0 or newer: 
+
 ```pip3 install tensorflow```
 3. Install OpenCV: 
+
 ```pip3 install opencv-python```
 4. Install Keras: 
+
 ```pip3 install keras```
 5. Install Imageai: 
+
 ```pip3 install imageai --upgrade```
 
 ## Reference
