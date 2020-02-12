@@ -7,6 +7,7 @@ The project uses ImageAI to process real-time video from webcam and identifies t
 The Deep Neural Network is developed by the ImageAI library and can identify up to 80 objects. 
 A flask app is used to turn the webcam on and display the video for reference. predict.py loads the DNN model and 
 starts predicting the objects in the images.
+The images of predicted objects are available for future processing.
 
 ## How to use
 
@@ -16,8 +17,8 @@ starts predicting the objects in the images.
 4. Run the following command: flask_run
 5. You can open the URL to see the video (click on see for yourself in the website).
 6. Run the following command: python3 predict.py
-7. The code will ask you to choose a. predict or b. exit
-8. Type p to predict and e to exit
+7. The code will ask you to choose type p to predict and e to exit
+8. Predictions are displayed along with the confidence level of the DNN
 
 Note: There are error handling messeges that might appear. You can choose to retry or to exit.
 
