@@ -40,7 +40,7 @@ Note: There are error handling messeges that might appear. You can choose to ret
 
 ```pip3 install keras```
 
-5. Install Imageai: 
+5. Install ImageAI: 
 
 ```pip3 install imageai --upgrade```
 
