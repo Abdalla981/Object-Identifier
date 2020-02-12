@@ -8,6 +8,7 @@ The Deep Neural Network is developed by the ImageAI library and can identify up 
 A flask app is used to turn the webcam on and display the video for reference. predict.py loads the DNN model and 
 starts predicting the objects in the images.
 The images of predicted objects are available for future processing.
+The model can be trained further to identify more objects based on the application it is used for.
 
 ## How to use
 
@@ -47,4 +48,5 @@ Note: There are error handling messeges that might appear. You can choose to ret
 ## Reference
 
 1. https://imageai.readthedocs.io/en/latest/index.html
-2. https://towardsdatascience.com/object-detection-with-10-lines-of-code-d6cb4d86f606
+2. https://imageai.readthedocs.io/en/latest/customdetection/index.html
+3. https://towardsdatascience.com/object-detection-with-10-lines-of-code-d6cb4d86f606
